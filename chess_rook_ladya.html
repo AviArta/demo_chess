@@ -1,0 +1,13 @@
+
+<# Chess rook (ход ладьи)>
+<a1 b1 - начальное положение ладьи>
+<a2 b2 - заданное положение ладьи>
+
+<a1 = int(input())>
+<b1 = int(input())>
+<a2 = int(input())>
+<b2 = int(input())>
+<if (a1 - (8 - (8 - a1)) <= a2 <= a1 + (8 - a1) and b2 == b1) or (b1 - (8 - (8 - b1)) <= b2 <= b1 + (8 - b1) and a2 == a1):>
+    <print('YES')>
+<else:>
+    <print('NO')>
